@@ -6,7 +6,7 @@ from nltk.probability import FreqDist
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('punkt_tab') # Added to fix the LookupError
-
+ 
 def load_document(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()
