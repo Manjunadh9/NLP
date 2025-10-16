@@ -1,7 +1,7 @@
 import nltk
 from nltk.tokenize import word_tokenize
 nltk.download("punkt")
-
+ 
 nltk.download("punkt_tab")
 
 text = "Tokenization without transformers is straightforward with tools like NLTK in Python."
