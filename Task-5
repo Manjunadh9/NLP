@@ -10,7 +10,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('reuters')
 
-
+ 
 sents = reuters.sents()
 stop_word = set(stopwords.words('english'))
 
