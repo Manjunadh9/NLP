@@ -9,7 +9,7 @@ def ngram_smoothing(sentence, n):
     model = Laplace(n)
     model.fit(train_data, padded_sents)
     return model
-
+ 
 sentence = input("Enter a sentence: ")
 n = int(input("Enter the value of N for N-grams: "))
 
